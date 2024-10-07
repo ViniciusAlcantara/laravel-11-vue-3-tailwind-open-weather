@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./resources/js/*"
+            ],
+            "~/*": [
+                "./resources/js/Utils/*"
+            ],
+            "ziggy-js": [
+                "./vendor/tightenco/ziggy"
+            ],
+            "ziggy-vue": [
+                "./vendor/tightenco/ziggy/dist/vue.m.js"
+            ],
+            "ziggy-router": [
+                "vendor/tightenco/ziggy/src/js/Router.js"
+            ]
+        }
+    },
+    "include": [
+        "resources/js/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "public"
+    ]
+}
