@@ -112,10 +112,10 @@ A web application built with Vue.js, Laravel, Tailwind and SQLite that allows us
 
      - **User 1**
        - Email: `test-user@test.com`
-       - Password: `password123`
+       - Password: `password`
      - **User 2**
        - Email: `test-user2@test.com`
-       - Password: `password123`
+       - Password: `password`
 
 ### Running the Application
 
